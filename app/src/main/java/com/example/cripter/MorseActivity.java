@@ -86,7 +86,7 @@ public class MorseActivity extends AppCompatActivity {
         MediaPlayer mPlayer_dot;
         TextView textView = findViewById(R.id.output);
         mPlayer_dash= MediaPlayer.create(this, R.raw.morse_dash);
-        mPlayer_dot= MediaPlayer.create(this, R.raw.morse_dash);
+        mPlayer_dot= MediaPlayer.create(this, R.raw.morse_dot);
         String s = textView.getText().toString();
         s = s.toLowerCase();
         String[] letters = s.split(" ");
